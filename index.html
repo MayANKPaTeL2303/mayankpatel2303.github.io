@@ -9,15 +9,30 @@
 </head>
 <body>
   <aside>
-    <img src="https://i.pravatar.cc/150?img=3" alt="Profile" class="profile-pic">
-    <h2>Mayank Patel</h2>
-    <nav>
-      <a href="#home">🏠 Home</a>
-      <a href="#about">👤 About</a>
-      <a href="#resume">📄 Resume</a>
-      <a href="#projects">📁 Projects</a>
-      <a href="#contact">✉️ Contact</a>
-    </nav>
+    <div>
+      <div class="profile-container">
+        <img src="https://i.pravatar.cc/150?img=3" alt="Profile" class="profile-pic">
+        <h2>Mayank Patel</h2>
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+      <nav>
+        <a href="#home" class="active">🏠 Home</a>
+        <a href="#about">👤 About</a>
+        <a href="#resume">📄 Resume</a>
+        <a href="#projects">📁 Projects</a>
+        <a href="#services">🛠 Services</a>
+        <a href="#contact">✉️ Contact</a>
+      </nav>
+    </div>
+    <div class="contact-info">
+      <p>Email: mayank@example.com</p>
+      <p>Phone: +91-9876543210</p>
+    </div>
   </aside>
 
   <main>
@@ -26,5 +41,8 @@
       <p>I'm a Software Developer | Backend & AI Enthusiast</p>
     </div>
   </main>
+  
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
