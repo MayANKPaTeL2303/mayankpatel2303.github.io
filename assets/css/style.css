@@ -4,11 +4,15 @@ body {
   display: flex;
   background: #0f172a;
   color: #fff;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 aside {
   width: 300px;
-  background: #0e1525;
+  background: rgba(15, 23, 42, 0.8);
   height: 100vh;
   position: fixed;
   top: 0;
@@ -18,37 +22,68 @@ aside {
   align-items: center;
   padding-top: 30px;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .profile-pic {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 3px solid #2563eb;
+  width: 150px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 1px solid #0f172a;
   margin-bottom: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .social-icons {
   display: flex;
   gap: 10px;
   margin: 10px 0;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .social-icons a {
   color: #ccc;
   font-size: 18px;
   text-decoration: none;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 aside h2 {
   margin: 10px 0;
   font-size: 20px;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 nav {
@@ -56,6 +91,10 @@ nav {
   flex-direction: column;
   width: 100%;
   margin-top: 30px;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 nav a {
@@ -66,12 +105,20 @@ nav a {
   display: flex;
   align-items: center;
   font-size: 16px;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 nav a:hover,
 nav a.active {
   background: #2563eb;
   color: #fff;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 main {
@@ -79,8 +126,15 @@ main {
   padding: 80px 60px;
   flex-grow: 1;
   min-height: 100vh;
-  background: url('https://media.giphy.com/media/OumCa12QC9CIvBe2c1/giphy.gif') no-repeat center center/cover;
+  background: url('https://media.giphy.com/media/OumCa12QC9CIvBe2c1/giphy.gif') no-repeat center center;
+  background-size: contain;
   position: relative;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .intro {
@@ -91,14 +145,26 @@ main {
   max-width: 600px;
   color: white;
   z-index: 1;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .intro h1 {
   font-size: 3rem;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .intro p {
   font-size: 1.2rem;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
 
 .contact-info {
@@ -107,4 +173,8 @@ main {
   color: #aaa;
   text-align: center;
   font-size: 14px;
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
 }
