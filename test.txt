@@ -1,0 +1,29 @@
+        <!-- 🎓 Education Section -->
+        <div class="education">
+          <h2>🎓 Education</h2>
+          <ul class="timeline">
+            <li>
+              <span class="date">2022 - Present</span>
+              <h3>IIT Bhilai</h3>
+              <p>B.Tech in Computer Science and Engineering</p>
+              <p class="details">Current CGPA: <strong>8.07</strong></p>
+            </li>
+            <li>
+              <span class="date">2020 - 2022</span>
+              <h3>St Xavier's High School, Nagpur</h3>
+              <p>Higher Secondary Education (PCM)</p>
+              <p class="details">
+                12th Board Percentage: <strong>82%</strong>
+              </p>
+            </li>
+            <li>
+              <span class="date">Earlier - 2020</span>
+              <h3>SGVP International School, Ahmedabad</h3>
+              <p>Secondary Education</p>
+              <p class="details">
+                10th Board Percentage: <strong>86%</strong>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
