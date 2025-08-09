@@ -1,0 +1,42 @@
+🛠️ Areas to Improve
+1. Add Resume Download Option
+The “Resume” button on the sidebar currently isn’t linked in the screenshots — ensure it opens or downloads your latest PDF resume.
+
+2. Make Projects More Actionable
+Consider adding:
+- Live demo links (if available).
+
+- Brief bullet points (e.g., features implemented, challenges solved).
+
+- Status (e.g., “In Progress”, “Completed”).
+
+3. Mobile Responsiveness
+Not visible from the screenshots, but ensure:
+
+The layout stacks correctly on smaller screens.
+
+Buttons and text aren’t too small.
+
+4. Grammar/Content Polish
+A few edits to make your text more professional:
+
+“Spearheaded the design and documentation of the Self Serve Feature Panel…” ✅
+But also mention a quantifiable impact, if possible (e.g., reduced development time by X%).
+
+“A simple and elegant blogging platform…” — good, but mention if authentication is supported.
+
+5. Contact Form
+No “success” or “error” feedback is visible. Ensure that:
+
+On submission, users receive a confirmation.
+
+Backend is connected (using EmailJS, Formspree, or a backend API).
+
+6. Accessibility and SEO
+Add:
+
+Proper <title> and <meta> tags.
+
+Alt text for your profile image.
+
+Semantic HTML (<section>, <nav>, etc.).
