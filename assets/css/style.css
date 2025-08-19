@@ -175,8 +175,8 @@ main {
   padding: 80px 60px;
   flex-grow: 1;
   min-height: 100vh;
-  background: url("https://media.giphy.com/media/OumCa12QC9CIvBe2c1/giphy.gif")
-    no-repeat center center;
+  /* background: url("https://media.giphy.com/media/OumCa12QC9CIvBe2c1/giphy.gif") */
+    /* no-repeat center center; */
   background-size: contain;
   position: relative;
   backdrop-filter: blur(8px);
